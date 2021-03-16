@@ -1,0 +1,16 @@
+.searchBar {
+    background-color: #e6e6e6;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+.searchBar input {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+}

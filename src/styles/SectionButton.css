@@ -1,0 +1,40 @@
+.sectionButton {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140px;
+    height: 70px;
+    box-shadow: 3px 5px 12px -10px rgba(0,0,0,0.59);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.sectionButton:hover {
+    transform: scale(0.95);
+    transition: 300ms;
+}
+
+.sectionButton i {
+    font-size: 36px;
+}
+
+.SecBtn-color1 {
+    background-color: rgb(26,21,106);
+}
+
+.SecBtn-color2 {
+    background-color: #1b2ab1;
+}
+
+.SecBtn-color3 {
+    background-color: rgb(29, 38, 119);
+}
+
+.SecBtn-color4 {
+    background-color: #275ae7;
+}

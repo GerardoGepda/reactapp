@@ -1,0 +1,39 @@
+.homeScreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "card1         card2  card3"
+                         "wheatherHelth memory memory"
+                         "buttons       status cloud";
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.Weather\&Health {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.graphCard_container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    grid-area: memory;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SectionButton_container {
+    width: 300px;
+    height: 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
